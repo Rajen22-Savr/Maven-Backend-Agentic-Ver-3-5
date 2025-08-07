@@ -5,6 +5,8 @@ from pydantic import BaseModel
 import pandas as pd
 from io import BytesIO
 from insight_engine import run_all_insights
+import multipart  # force import to trigger early error if missing
+
 
 app = FastAPI()
 
