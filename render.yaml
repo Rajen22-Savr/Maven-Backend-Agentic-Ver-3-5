@@ -1,7 +1,7 @@
 
 services:
   - type: web
-    name: maven-backend-v3-5
+    name: Maven-Backend-Agentic-ver-3-5
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn maven_api_backend:app --host 0.0.0.0 --port 10000
